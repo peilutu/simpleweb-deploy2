@@ -10,6 +10,10 @@
   </head>
   <body>
     <h1>this is the home page...</h1>
+    <h2>pic from static file</h2>
+    <img src="{% static 'images/wholecake.jpg' %}" alt="wholecake" />
+
+    <h2>each cake:</h2>
 
     {% for pic in photo %}
 
